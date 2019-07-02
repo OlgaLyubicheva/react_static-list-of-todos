@@ -1,18 +1,14 @@
 import React from 'react'
 import {users} from './users'
 
-function User(props) {
+const User = (props) => {
+  const user = users.find(person => person.id === props.id);
+  
   return (
-    <p className = "todo__item-user"> 
-      {
-        users.map(person => {
-          if (person.id === props.id) {
-            return person.name + ' ' + '(' + person.username +'), '+ person.website;
-          } 
-        })
-      }
-    </p>
-  )
+    <p className="todo__item-user">
+      {user.name} ({user.username}),<br />
+      {user.website}
+    </p>)
 }
 
 export default User;

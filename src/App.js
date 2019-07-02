@@ -1,13 +1,12 @@
 import React from 'react';
 import TodoList from './components/TodoList'
+import './components/styleComponents.css'
 
-function App() {
-  return (
+const App = () => (
     <div>
       <h1>List of todos</h1>
       <TodoList />
     </div>
   );
-}
 
 export default App;
