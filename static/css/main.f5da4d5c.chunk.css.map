@@ -1,0 +1,1 @@
+{"version":3,"sources":["styleComponents.css"],"names":[],"mappings":"AAAA,kBACE,oBACF,CAEA,iBACE,kBAAmB,CACnB,QACF","file":"main.f5da4d5c.chunk.css","sourcesContent":[".todo__item-title {\n  display: inline-block;\n}\n\n.todo__item-user {\n  padding-left: 100px;\n  margin: 0;\n}"]}
